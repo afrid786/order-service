@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://jobsforafrid:Afreensekh%401997@afrid-cluster.hlgzogg.mongodb.net/
+      database: orderdb
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka

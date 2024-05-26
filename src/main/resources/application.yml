@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ORDER-SERVICE
+
+
+user-service:
+    base-url: "http://USER-SERVICE/api/v1"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 9094
